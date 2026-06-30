@@ -37,8 +37,3 @@ DNS
 #which device decides where packets go on the internet?
 why is the CIA traide important?
 As an application security tester, why do you need to undersdatnd networking?
-
-
-
-
-#Summary
