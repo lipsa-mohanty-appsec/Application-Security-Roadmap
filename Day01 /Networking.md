@@ -7,7 +7,7 @@ WAN
 Router
 Awitch
 HUB
-IP[ Address
+IP Address
 DNS
 #NOTES
 
