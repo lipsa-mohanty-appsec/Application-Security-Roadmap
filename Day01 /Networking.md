@@ -36,6 +36,26 @@ Subnetting
 #Defaulty Gateway
 #32 bites are there in subnet mask.
 
+ARP Protocol(Address resolution protocol)
+Cache
+ARP Request
+ARP Reply
+DHCP Protocol(Dynamic host configuration protocol)
+DHCP Discover
+DHCP Request
+DHCP Ack
+
 HUB
-IP Address
-DNS
+IP Address- It's an numeric address, It's an identifier for a computer or a device on network.It has two parts, A network address, a host address.
+Public & Private IP Address.
+Public IP Address:
+#Unique, publically registred on the internet,used externally, assigned by ISP,not free, not secure, easily traceble.
+Private IP Address:
+#not unique can be used by another private network,not publically registred,used internally,assigned by arouter, it's free,motre secure.
+NAT- Network address Translation
+IPv4:32 bit numeric version, sepated by octet.   e.g.66.94.234.02  (0-255)
+IPv6:128 bit hexadecimal address
+Static vs Dynamic IP Address
+#Dynamic ip address assigned automateically, but they will commonly change. 
+#Staic ip is an IP if you set thet IP in your computer it's gone never change.
+DNS- Domain Name System- DNS resolves Domain name to IP Address.
