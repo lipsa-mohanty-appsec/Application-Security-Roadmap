@@ -1,24 +1,43 @@
 #OSI Model
 Layer                   Purpose
 
-Application            Browser,HTTP
-Presentation           Encryption
-Session                Session Management
-Transport              TCP/ UDP
-Network                IP Routing
-Data Link              Mac Address
-Physical               Cable
+Application            Browser,HTTP       Provides a direct interface between network services and end-user applications.
+Presentation           Encryption         Translates, encrypts, and compresses data
+Session                Session Management Establishes, maintains, and terminates connections between applications.
+Transport              TCP/ UDP           Ensures reliable, end-to-end data delivery (e.g., TCP and UDP).
+Network                IP Routing         Routes data across different networks (e.g., using IP addresses).
+Data Link              Mac Address        Transfers data between adjacent network nodes (e.g., using MAC addresses).
+Physical               Cable              Manages raw hardware, cabling, and physical signals.
 
-#TCP/IP Model
-TCP/IP Layer         Maps to OSI
-
+#TCP/IP Model (Transmission control Protocol/Internet protocol)
+   It is a set of protocols, which supports network communication. TCP breaks the data into small data units segments and hands them off to IP, then it completes     the routing, TCP Module in the reciver combines the message segments to origional message.
+TCP/IP Layer         
 Application          Applictaion,Presentation,Session
-Transport            Transport
-Internet             Network
-Network Access       Data Link, Physical
+   List of protocols provided by appliation layer
+   DNS- Domain name system trnslates IP address to Domain names and vice versa.
+   DHCP- Dynamic host configuration protocol autpomatically assign IP address to computer present in your network.
+   FTP- File transfer protocol is used to trnsport files to internet.
+   HTTP- Hyper text transfedr protocol is used to send or recieve web pages.
+   IMAP- Intyernet mail access protocol used to email messages in internet.
+   IRC-  Intyernet relay chat protocol used for internet chat
+   POP3- Post office protocol version 3 used by email clients to retyrive messages from remote server.
+   SMTP- Simple mail transfer protocol used  to email messages in internet.
+Transport            Transport Dat transfer, ACK & Connection termination(Sender TCP sends finished message to Reciever TCP. the other end acknowdges the message.    That is called two way handshake process, so the connection termination follows 4 way hand shake process)
+Network              is resonsible for logical addressing, routing and path determination.
+Data Link            Ethernet  (Medium access control-MAC Sub layer) (Logical link control-LLC Sub layer)
+    MAC Sub layer responsible for data encapsulation and accessing the media.
+    Data encapsulation: header- mac address, IP Packet, Trailer-Error checking data
+    Access method: Carrier sense multiple access / colloison detection. CSMA/CD
+    LLC Sub layer is responsible for flow control and error control and sizing of the packets. Automatic reapet request (ARQ) , LLC Can resize the data packet         recived from the network layer to fit them into data link layer frame.
+Physical             Ethernet
 
-#TCP vs UDP
-TCP- Reliable, Ordered,Connection oriented
+#TCP vs UDP (User Data gram Protocol)
+TCP- slow but more Reliable, Ordered,Connection oriented
+Error free data transfer
+ordered data transfer
+Retransmission of lost data
+Discarding duplic ate data
+congestion throttling or Flow control
 UDP-Fast, no guarantee,Connectionless
 E.G.-TCP,HTTP,HTTPS,SSH,FTP,SMTP,UDP,DNS,VoIP,Gaming,Video Streaming
 #Common Ports and Common Protocols
