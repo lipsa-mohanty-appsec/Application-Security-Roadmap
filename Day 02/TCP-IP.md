@@ -30,19 +30,21 @@ Data Link            Ethernet  (Medium access control-MAC Sub layer) (Logical li
     Access method: Carrier sense multiple access / colloison detection. CSMA/CD
     LLC Sub layer is responsible for flow control and error control and sizing of the packets. Automatic reapet request (ARQ) , LLC Can resize the data packet         recived from the network layer to fit them into data link layer frame.
 Physical             Ethernet
-
-#TCP vs UDP (User Data gram Protocol)
+#TCP vs UDP (User Datagram Protocol)
 TCP- slow but more Reliable, Ordered,Connection oriented
-Error free data transfer
-ordered data transfer
-Retransmission of lost data
-Discarding duplic ate data
-congestion throttling or Flow control
-UDP-Fast, no guarantee,Connectionless
+    Error free data transfer
+    ordered data transfer
+    Retransmission of lost data
+    Discarding duplicate data
+    congestion throttling or Flow control
+UDP-It's connectionless means it does not esatablish a session, it does not guarentee data delivery.When a computer send data it does not really cares the data has been recieved at other end. It's known as fire and forget protocal.Fast, no guarantee,Connectionless
 E.G.-TCP,HTTP,HTTPS,SSH,FTP,SMTP,UDP,DNS,VoIP,Gaming,Video Streaming
 #Common Ports and Common Protocols
+Port is a logical connection that is used by programs and services to exchange information.
+System/ well known ports- 0-1023
+User/Registrated ports-   1024-49151
+Dynamic/private ports-49152-65535
 Port          Protocol
-
 20/21           FTP
 22              SSH
 23              Telnet
@@ -55,6 +57,7 @@ Port          Protocol
 3306            MySQL
 3389            RDP
 #TCP three way Handshake
+First a computer will send a message called SYN, then the reciever computer will send back an acknowedgement message SYN ACK, telling the sender that it has recieved the message, then finally the sender computer sends another acknowedgement message back to the reciever.Once this takes place data will be delivered.
 Client->SYN->Server->SYN ACK->Client->ACK->Connection established. (FIN,ACK,FIN,ACK)
 Packet flow
 Wireshark Introduction
