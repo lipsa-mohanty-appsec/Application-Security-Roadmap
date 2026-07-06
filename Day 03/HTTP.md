@@ -11,13 +11,17 @@ Fullform                    HyperText Transfer Protocol                   HyperT
 Security                    None; data is sent in plain text               Encrypted using SSL/TLS protocols (Secure sockets Layer/Transport Layer Security)
 Default Port                           80                                               443
 Url Prefix                           http://                                           https://
-
+Request->Server->Response
 #HTTP Request
+Request Lines
 Headers
 Body
+Cookies
+Authorization
 #HTTP Response
+Status Lines
 Headers
-Body
+Response Body
 #HTTP Methods
 GET
 POST
@@ -27,17 +31,23 @@ DELETE
 OPTIONS
 HEAD
 ##Status Codes
-200
-201
-301
-302
-400
-401
-403
-404
-500
-503
-##Headers
+200-OK
+201-Created
+204-No content
+301-Moved permanently
+302-Found(or previously "Moved Temporarily")
+304-Not Modified
+400-Bad Request
+401-Unauthorized
+403-Forbidden error
+404-Not Found
+405-Method not allowed
+429- Too many requests
+500-Internal Server error
+502-Bad Gateway
+503-Service Unavailable
+504-Gateway Timeout
+##HTTP Headers
 ##Cookies
 ##Sessions
 ##Brower Developer Tools / Chrome Dev. Tools Practice
