@@ -63,3 +63,7 @@ Client->SYN->Server->SYN ACK->Client->ACK->Connection established. (FIN,ACK,FIN,
 Packet flow in networking is the step by step joureny of data broken into small chunks(packets) from source to destination. As a packet travels intermideate devices like switches, roters analyse, encapsulate and forwad the packet based on mac address, IP Address and routing tables.
 #Wireshark Introduction
 Wireshark is the open source, free, industry standard network protocol analyser. It is essentially a digital microscope (packet snipper) that intyersepts and displayes network traffic in real time, allows it professional to troubleshoot network issues, analyse protocols and conduct cyber security forensics. 
+##commands
+ping
+tracert
+netstart
