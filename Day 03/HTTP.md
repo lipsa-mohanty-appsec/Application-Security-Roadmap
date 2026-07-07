@@ -31,24 +31,37 @@ DELETE
 OPTIONS
 HEAD
 ##Status Codes
-200-OK
-201-Created
-204-No content
+200-OK, Successful HTTP Request
+201-Created, New copntent is created, and it's now live.
+204-No content, when you send a delete request, it's done, but don't have any content to send back.
 301-Moved permanently
 302-Found(or previously "Moved Temporarily")
 304-Not Modified
-400-Bad Request
-401-Unauthorized
-403-Forbidden error
-404-Not Found
+400-Bad Request, check again what you have sent.
+401-Unauthorized, we are missing the right credentials.
+403-Forbidden, your request is forbidden to see the content.(trying to enter VIP area with general ticket.)
+404-Not Found , your requested file is not present.
 405-Method not allowed
-429- Too many requests
+429- Too many requests, server's way of saying hey slow down.
 500-Internal Server error
 502-Bad Gateway
 503-Service Unavailable
 504-Gateway Timeout
 ##HTTP Headers
+  General
+                         Request Header format                                                   Response Header Format
+                         Request Line                                                            Status Line
+                         Header fields                                                           Header fields                         
+                         Blank line                                                              Blank line
+                         Message Body                                                            Message Body
+                         
+                         
+  
 ##Cookies
+HTTP Protocol is a stateless protocol, it constantly forgets what user has done on the site unless we have a way to remember.
+Internet cookies are small text files websites save on your device. They act as a website's memory, holding unique data that helps servers recognize you upon return. Cookies remember login credentials, maintain items in your shopping cart, and save personal preferences to make browsing smoother and more personalized.
 ##Sessions
+A session in networking is a temporary, interactive conversation between two or more communicating devices or applications. It encompasses the entire duration from the initial "handshake" and data exchange until the connection is officially closed or times out.
 ##Brower Developer Tools / Chrome Dev. Tools Practice
+
 
