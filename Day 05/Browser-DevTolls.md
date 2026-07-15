@@ -9,6 +9,7 @@ Download HTML
 Download CSS
 Download Java script
 Renders the Page
+(Initial Typing, URL Parsing, DNS Look up, TCP Connection,TLS,ALPN, SNI,First Get request, HTML Parsing)
 #Chrome DevTools
 F12
 Elements
