@@ -1,6 +1,6 @@
 # Day 6 Interview Questions:-
-##What is Burpsuite?
-  Answer:
+##What is Burp suite?
+  Answer: Burp Suite is a tool which is used to do security scanning for mobile application, web application , API Testing and to perform penetration testing for web applications. 
 ##Why do AppSec Engineers use Burp Suite instead of browser DevTools?
   Answer:
 ##Difference between Dev Tool and Burp Suite?
@@ -11,7 +11,7 @@
   Answer:
 ##What is Repeater?
   Answer:
-##What types of trequest do you expect to see after logging into a web application?
+##What types of request do you expect to see after logging into a web application?
   Answer:
 ##How would you verify the authentication is working correctly?
   Answer:
