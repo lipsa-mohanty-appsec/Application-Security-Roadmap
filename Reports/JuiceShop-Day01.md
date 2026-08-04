@@ -1,4 +1,4 @@
-##Mini VAPT Report
+# Mini VAPT Report
 Application Name:
 Testing Date:
 Tester:
