@@ -30,7 +30,6 @@ Feedback
 #Other visible functionality
 Proxy → HTTP history
 Target → Site map
-
 #Send Login Request to Repeater
 Find the login request.
 Right-click:
@@ -41,5 +40,3 @@ Request
 Response
 Status
 Token/session information
-
-#Build Your First Real Pentest Deliverable
